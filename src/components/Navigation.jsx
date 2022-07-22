@@ -9,7 +9,7 @@ const Navigation = () => {
     let menuOverlay;
     if (showMenu) {
         menu = (
-            <div className='fixed bg-[#30475E] top-0 left-0 h-full w-4/5 z-50 shadow p-3 text-[#F5F5F5]'>
+            <div className='fixed bg-[#30475E] top-0 left-0 h-full w-2/3 z-50 shadow p-3 text-[#F5F5F5]'>
                 <Link
                     to='/'
                     className='font-bold text-lg underline underline-offset-8 cursor-pointer'>
